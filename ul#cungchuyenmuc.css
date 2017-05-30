@@ -4,16 +4,19 @@ ul#cungchuyenmuc {
     height: 100%;
     margin-bottom: 10px;
     margin-top: 20px;
-    width: 90%;
     border: 1px solid #e7e7e7;
     border-radius: 3px;
+    margin-right: 0px;
+    padding-right: 30px;
+    background: #e7e7e7;
+    box-shadow: 0 1px 1px #ccc;
 }
 #cungchuyenmuc li{counter-increment:Zzindex;float:right;position:relative;width:50%;border-bottom:1px dashed #CCC;height:24px;line-height:22px}
 #cungchuyenmuc a{color:#333;font:12px Tahoma}
 #cungchuyenmuc a:hover{color:#ba3814}
 #cungchuyenmuc span{display:inline-block;overflow:hidden;height:18px;width:90%;margin-bottom:-2px}
 #cungchuyenmuc li:before{content:counter(Zzindex);display:block;height:16px;background:#EBEBEB;position:absolute;right: -22px;font-size:11px;top:4px;border-radius:2px;text-align:center;width:16px;color:#FFF;line-height:16px;z-index:3}
-#cungchuyenmuc li:after{content:" ";background:#EBEBEB;display:block;width:5px;height:5px;position:absolute;top:9px;    left: 467px;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg)}
+#cungchuyenmuc li:after{content:" ";background:#EBEBEB;display:block;width:5px;height:5px;position:absolute;top:9px;left: 440px;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg)}
 #cungchuyenmuc li:nth-child(3):before,#cungchuyenmuc li:nth-child(3):after{background:red}
 #cungchuyenmuc li:nth-child(4):before,#cungchuyenmuc li:nth-child(4):after{background:#FD5405}
 #cungchuyenmuc li:nth-child(5):before,#cungchuyenmuc li:nth-child(5):after{background:#FDB55A}
