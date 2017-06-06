@@ -1,0 +1,62 @@
+/* Zzhljs - http://devs.forumvi.com */
+dl.codebox:not(.spoiler) dt {
+    display: none;
+}
+dl.codebox:not(.spoiler) dd {
+    border: 0 none;
+    background: #f8f8f8;
+    position: relative;
+    max-height: 100%;
+}
+.clipboard {
+    display: block;
+    color: #333;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    background: url(http://i.imgur.com/o9NOYtH.png) no-repeat center center #eee;
+    border: 1px solid #D5D5D5;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    transition: opacity 0.3s ease-in-out 0s;
+    opacity: 0;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-appearance:none;
+    cursor: pointer;
+}
+.clipboard.check-circle {
+    background-image: url(http://i.imgur.com/CBEkyLH.png);
+}
+.clipboard.exclamation-triangle {
+    background-image: url(http://i.imgur.com/QQkE9Wj.png);
+}
+dl.codebox:not(.spoiler) dd:hover .clipboard {
+    opacity: 1;
+}
+.clipboard:hover {
+    background-color:#ddd;
+    border-color:#ccc;
+}
+.hljs {
+    background: #f8f8f8;
+}
+dl.codebox:not(.spoiler) code,
+.codebox:not(.spoiler) dd.cont_code {
+    max-height: 100%;
+    margin: 0;
+}
+.codebox:not(.spoiler) {
+    background-color: transparent;
+    border: 0 none;
+    margin: 0;
+}
+  dl.codebox:not(.spoiler) code, .codebox:not(.spoiler) dd.cont_code {
+    max-height: 100%;
+    margin: 0;
+    height: 300px;
+}
