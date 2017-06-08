@@ -1,0 +1,32 @@
+/* Widget Recommended Content */
+#slidebox{background:#fff;width:100%;max-width:355px;height:255px;position:fixed;overflow:hidden;border:none;right:-360px;z-index:99;text-align:left;box-shadow:0 1px 0 0 rgba(0,0,0,0.03);transition:all .4s ease-out}
+.slidebox-title {
+    background: #2196f3;
+    color: #fff;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.slidebox-title span a{font-family:initial;float:right;height:40px;margin:0 0 0 15px;text-align:center;color:#fff;font-size:20px}
+a#slidebox-close,a#slidebox-close{margin-right:15px}
+.slidebox-title >span >h2{font-size:20px!important;font-weight:normal!important}
+.slidebox-container{border:none;float:left;width:100%;height:auto;margin:3px}
+.slidebox-container >div{border:none;margin:3px 0;padding:10px 0}
+.slidebox-container >div >span{font-size:14px}
+.show{bottom:84px}
+.hide{bottom:-205px}
+.related-post{font-size:70%}
+.related-post h4{font-size:150%;margin:0 0 .5em}
+.related-post-style-2{padding-top:5px;list-style:none}
+.related-post-style-2 li{padding:0 10px 10px 10px;overflow:hidden}
+.related-post-style-2 li:first-child{border-top:none}
+.related-post-style-2 .related-post-item-thumbnail img {width:45px;height:45px;max-width:none;max-height:none;border:0;padding:0;border-radius:3px;float:left;margin:2px 10px 0 0}
+.related-post-style-2 .related-post-item-title{font-weight:700;font-size:110%;line-height:normal}
+a.related-post-item-title{color:#95a5a6;transition:all .4s ease-out}
+a:hover.related-post-item-title{color:#2ecc71;text-decoration:none}
+.related-post-style-2 .related-post-item-summary{display:block;overflow:hidden}
