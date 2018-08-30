@@ -58,5 +58,5 @@ dl.codebox:not(.spoiler) code,
   dl.codebox:not(.spoiler) code, .codebox:not(.spoiler) dd.cont_code {
     max-height: 100%;
     margin: 0;
-    height: 300px;
+    height: auto;
 }
